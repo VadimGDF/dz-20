@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dz-19.css">
+    <title>BEM</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="#" class="logo__link">
+                <img src="./WebStudio.png" alt="Логотип" class="logo__img">
+            </a>
+        </div>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a href="#" class="menu__link menu__link--color-margin">Студия</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Портфолио</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    <div class="contacts">
+        <a href="#" class="email">info@devstudio.com</a>
+        <a href="#" class="phone">+38 096 111 11 11</a>
+    </div>
+        
+    </header>
+    <main class="main">
+        <section class="preview">
+            <h1 class="preview__title">Эффективные решения для вашего бизнеса</h1>
+        <div class="button__wrapper"><button type="submit" class="button">Заказать услугу</button></div> 
+        </section>
+        <section class="features">
+            <ul class="features__list">
+                <li class="features__item">
+                    <div class="features__title">Внимание к деталям</div>
+                    <div class="features__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</div>
+                </li>
+                <li class="features__item">
+                    <div class="features__title">Пунктуальность</div>
+                    <div class="features__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</div>
+                </li>
+                <li class="features__item">
+                    <div class="features__title">Планирование</div>
+                    <div class="features__text">Равным образом консультация с широким активом в значительной степени обуславливает.</div>
+                </li>
+                <li class="features__item">
+                    <div class="features__title">Современные технологии</div>
+                    <div class="features__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</div>
+                </li>
+            </ul>
+        </section>
+        <section class="doing">
+            <h2 class="doing__title">Чем мы занимаемся</h2>
+            <ul class="doing__list">
+                <li class="doing__item">
+                    <img src="./icon1.png" alt="Картинка" class="doing__img">
+                </li>
+                <li class="doing__item">
+                    <img src="./icon2.png" alt="Картинка" class="doing__img">
+                </li>
+                <li class="doing__item">
+                    <img src="./icon3.png" alt="Картинка" class="doing__img">
+                </li>
+            </ul>
+        </section>
+        <section class="team">
+            <h2 class="team__title">Наша команда</h2>
+            <ul class="team__list">
+                <li class="team__item">
+                    <div class="team__avatar">
+                        <img src="man2.jpg" alt="Человек" class="team__avatar-icon">
+                    </div>
+                <div class="team__backgraund-white">
+                    <div class="team__name">Игорь Демьяненко</div>
+                    <div class="team__profession">Product Designer</div>
+                </div>
+                </li>   
+                <li class="team__item">
+                    <div class="team__avatar">
+                        <img src="girl.jpg" alt="Человек" class="team__avatar-icon">
+                    </div>
+                <div class="team__backgraund-white">
+                    <div class="team__name">Ольга Репина</div>
+                    <div class="team__profession">Frontend Developer</div>
+                </div>
+                </li> 
+                <li class="team__item">
+                    <div class="team__avatar">
+                        <img src="man1.jpg" alt="Человек" class="team__avatar-icon">
+                    </div>
+                <div class="team__backgraund-white">
+                    <div class="team__name">Николай Тарасов</div>
+                    <div class="team__profession">Marketing</div>
+                </div>
+                </li> 
+                <li class="team__item">
+                    <div class="team__avatar">
+                        <img src="man3.jpg" alt="Человек" class="team__avatar-icon">
+                    </div>
+                <div class="team__backgraund-white">
+                    <div class="team__name">Михаил Ермаков</div>
+                    <div class="team__profession">UI Designer</div>
+                </div>
+                </li>        
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+        <div class="logo logo--margin">
+            <a href="#" class="logo__link">
+                <img src="./WebStudio2.png" alt="Логотип" class="logo__img">
+            </a>
+
+            </div>
+            <p class="footer__text">г. Киев, пр-т Леси Украинки, 26</p>
+            <div class="contacts contacts--padding">
+                <a href="#" class="email email--color email--margin">info@devstudio.com</a>
+                <a href="#" class="phone phone--color">+38 096 111 11 11</a>
+            </div>
+        </div>
+    </footer>
+    <div class="popup">
+        <div class="popup__content">
+        <div class="popup__button-wrapp">
+            <button class="button-image"></button>
+        </div>
+            <form class="popup__form">
+                <p class="popup__title">Оставьте свои данные, мы вам перезвоним</p>
+                <label class="popup__label">
+                    <div class="popup__sub-title">Имя</div>
+                    <div class="popup__input-wrapp">
+                        <input type="text" class="popup__input">
+                    </div>
+                </label>
+                <label class="popup__label">
+                    <div class="popup__sub-title">Телефон</div>
+                    <div class="popup__input-wrapp popup__input-wrapp--tel">
+                        <input type="tel" class="popup__input">
+                    </div>
+                </label>
+                <label class="popup__label">
+                    <div class="popup__sub-title">Почта</div>
+                    <div class="popup__input-wrapp popup__input-wrapp--email">
+                        <input type="email" class="popup__input">
+                    </div>
+                </label>
+                <label class="popup__label">
+                    <div class="popup__sub-title">Комментарий</div>
+                        <textarea class="popup__input popup__texterea" placeholder="Введите текст"></textarea>
+                </label>
+                <label class="popup__label popup__label--flex">
+                    <input type="checkbox" class="popup__input-real">
+                    <div class="popup__input-fake"></div>
+                    <div class="popup__text">
+                        Соглашаюсь с рассылкой и принимаю <a href="#" class="popup__link-text">Условия договора</a> 
+                    </div>
+                </label>
+                <div class="popup__button">
+                    <button class="button">Отправить</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

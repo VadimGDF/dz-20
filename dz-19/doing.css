@@ -1,0 +1,23 @@
+.doing__title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+}
+.doing__list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.doing__item{
+    margin-left: 30px;
+}
+.doing__item:first-child{
+    margin: 0;
+}

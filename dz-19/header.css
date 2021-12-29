@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu__list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+.menu__link{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.menu__link--color-margin{
+    color: #2196F3;
+    margin-left: 0;
+}
+.email{
+    text-decoration: none;
+    color: #2196F3;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.phone{
+    text-decoration: none;
+    color: #757575;
+    margin-left: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
